@@ -1,5 +1,7 @@
 # ipfs-easy-update-bash
-Bash script for installing IPFS on *nix - debian, darwin, 
+Bash script for installing IPFS on *nix - linux, freebsd, darwin, \[windows\] 
+
+Separate `.bat` file written for installing on Windows.
 
 **IPFS** is the **I**nter**P**lanetary **F**ile**S**ystem
 
@@ -11,7 +13,9 @@ Allows an IPFS based device to seed the IPFS when it's the nearest copy of the f
 
 This works great when you're on Mars with the family videos - no more 40min round-trip delays.
 
-Also great for accessing recent content closer to you when sharing - IPFS devices around you hold the content. 
+Also great for accessing recent content closer to you when sharing - the nearest p2p IPFS devices around you hold the content. 
+
+The more p2p IPFS devices the faster it is accessing your content - so tell your friends !
 
 For more information see [ipfs.io](https://ipfs.io/)
 
@@ -29,7 +33,7 @@ Re-run the script and change bandwidth to the level you choose
 
 Script uses `sed` to update `~/.profile` to use the new level for you
 
-New level is applied on your next reboot.
+New level is applied on your next reboot or logout / login as `user`.
 
 ## Overview of the steps used in script
  0. Detect UID and then sudo with original `user` account if UID > 0
@@ -46,5 +50,5 @@ New level is applied on your next reboot.
 
 `Only Ubuntu 18.04.1 tested so far.`
 
-Separate `.bat` file written for installing on Windows.
-
+## Some Help
+I can help with questions on the weekends for \[other] platforms where I can, I only have Windows and Ubuntu environments to work with locally. `philiptwayne at yahoo com au`
