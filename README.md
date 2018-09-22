@@ -16,9 +16,9 @@ Also great for accessing recent content closer to you when sharing - IPFS device
 For more information see [ipfs.io](https://ipfs.io/)
 
 ## Initial install and bandwidth shaping
-Installs `trickle` to shape bandwidth usage `- be vigilant`.
+Installs `trickle` to shape bandwidth usage - `be vigilant`.
 
-Modifies `~/.profile` so IPFS starts on reboot.
+Modifies `~/.profile` so IPFS starts on reboot for your usual `user` account.
 
 Requires a `directoryname` to install the IPFS under
 
@@ -32,16 +32,19 @@ Script uses `sed` to update `~/.profile` to use the new level for you
 New level is applied on your next reboot.
 
 ## Overview of the steps used in script
-0. Detect UID and sudo with original user account if UID > 0
-1. Select OS 
-2. Select CPU instruction set
-3. Download trickle and specifc IPFS .gz file
-4. Run ipfs-update and get available versions
-5. Run ipfs-update and install latest version
-6. Shape bandwidth usage using trickle - be vigilant
-7. Initialise ipfs
-8. Show ipfs readme and then the quick-start pages
-9. Change permissions to the original user account
+ 0. Detect UID and then sudo with original `user` account if UID > 0
+ 1. Select OS 
+ 2. Select CPU instruction set
+ 3. Download `trickle` and specifc IPFS update `.gz` file for your system
+ 4. Run `ipfs-update` and get available versions
+ 5. Run `ipfs-update` and install latest version
+ 6. Shape bandwidth usage using `trickle` - `be vigilant`
+ 7. Initialise ipfs
+ 8. Show ipfs readme and then the quick-start pages
+ 9. Change permissions to the original `user` account
+10. Launches WebUI using x-www-browser
 
 `Only Ubuntu 18.04.1 tested so far.`
+
+Separate `.bat` file written for installing on Windows.
 
