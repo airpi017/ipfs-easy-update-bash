@@ -7,7 +7,7 @@
 # Written to make ipfs install easier
 # and get into development faster
 #
-# Send any feedback to: philiptwayne@yahoo.com.au
+# Send any feedback to: philiptwayne at yahoo com au
 # No guarantee of reply or action :)
 #
 # Enjoy !
