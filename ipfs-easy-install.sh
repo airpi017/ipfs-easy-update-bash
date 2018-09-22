@@ -7,7 +7,7 @@
 # Written to make ipfs install easier
 # and get into development faster
 #
-# Send any feedback to: ej6809@gmail.com
+# Send any feedback to: philiptwayne@yahoo.com.au
 # No guarantee of reply or action :)
 #
 # Enjoy !
@@ -15,12 +15,13 @@
 # 0. Detect UID and sudo with original user account if UID > 0
 # 1. Select OS 
 # 2. Select CPU instruction set
-# 3. Download specifc .gz file
+# 3. Download trickle and specifc IPFS update .gz file for your system
 # 4. Run ipfs-update and get available versions
 # 5. Run ipfs-update and install latest version
 # 6. Initialise ipfs
 # 7. Show ipfs readme and then the quick-start pages
 # 8. Change permissions to the original user account
+# 9. Show WebUI page
 #
 function show_options() {
 
